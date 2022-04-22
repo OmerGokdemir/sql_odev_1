@@ -32,7 +32,7 @@ Aşağıdaki sorgu senaryolarını *dvdrental* örnek veri tabanı üzerinden ge
           SELECT first_name, last_name FROM customer
           WHERE first_name = 'Mary';
           
-          - *last_name* Smith olarak çıkar.
+- *last_name* Smith olarak çıkar.
 
 ***
 
@@ -41,5 +41,6 @@ Aşağıdaki sorgu senaryolarını *dvdrental* örnek veri tabanı üzerinden ge
   ```SQL
           SELECT * FROM film
           WHERE NOT (length > 50 AND rental_rate = 2.99 AND rental_rate = 4.99);   
+
 
 ***
